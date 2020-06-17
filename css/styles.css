@@ -1,6 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
 :root {
   --color-green: #50fa7b;
+  --color-rocket: #7159c1;
 }
 
 * {
@@ -81,6 +82,7 @@ span {
 
 .links-icons {
   margin-bottom: 5px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,6 +92,41 @@ span {
 .links-icons img {
   width: 40px;
   margin: 15px;
+}
+
+/*======Cards======*/
+.cards {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--color-rocket);
+}
+
+.card-image-container img{
+  width: 100%;
+}
+
+.card-content,
+.card-info {
+  padding: 24px;
+}
+
+.card-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-price {
+  background-color: var(--color-rocket);
+  filter: brightness(90%);
+  padding: 5px 20px;
+  border-radius: 20px;
+  text-align: center;
 }
 
 
