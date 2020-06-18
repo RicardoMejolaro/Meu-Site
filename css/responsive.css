@@ -9,7 +9,7 @@
     width: 50%;
     display: flex;
     align-items: center;
-    margin-left: 5px;
+    margin-left: 10px;
   }
 
   .links a {
@@ -18,7 +18,6 @@
     line-height: 24px;
     font-weight: bold;
     margin: 0 5px;
-    text-decoration: none;
     padding-bottom: 3px;
   }
 
@@ -28,10 +27,6 @@
     align-items: center;
     justify-content: flex-end;
     margin-right: 5px;
-  }
-  
-  .links-icons-socials a {
-    text-decoration: none; 
   }
     
   .links-icons-socials img {
