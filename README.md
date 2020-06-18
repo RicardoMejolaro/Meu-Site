@@ -62,7 +62,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ---
 
-## 💻️ Acrescentado ao projeto porposto
+## 💻️ Acrescentado ao projeto proposto
 
 - Ícones das redes sociais.
 - Ícones das redes tecnologias que gosto com links para as documentações.
