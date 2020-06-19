@@ -1,5 +1,7 @@
 //Selecionando o modal overlay
 const modalOverlay = document.querySelector(".modal-overlay");
+//Selecionando o modal overlay
+const modal = document.querySelector('.modal')
 //selecionando todos os cards 
 const cards = document.querySelectorAll('.card');
 //Percorrendo os cards
@@ -21,4 +23,26 @@ document.querySelector('.close-modal').addEventListener('click', () => {
   modalOverlay.classList.remove('active');
   //Retiranto o src no iframe da página, ao fechar o modal para que o video encerre
   modalOverlay.querySelector('iframe').src = "";
+  //Retiranto classe maximize do modal ao fechar
+  modal.classList.remove('maximize');
 });
+
+//Selecionando o "botão D" maximize do close modal e escutando o evento de click sobre ele
+document.querySelector('.maximize-modal').addEventListener('click', () => {
+  //Verificando se a o modal já está maximizado
+    const contain = modal.classList.contains('maximize');
+    if (!contain) {
+      //Ao escutar o evento de click, inclui a classe maximize que mostra o modal em tela maximizado
+      modal.classList.add('maximize');
+    }
+  });   
+
+  //Selecionando o "botão - " minimize do close modal e escutando o evento de click sobre ele
+  document.querySelector('.minimize-modal').addEventListener('click', () => {
+  //Verificando se a o modal já está minimizado
+    const contain = modal.classList.contains('maximize');
+    if (contain) {
+       //Ao escutar o evento de click, inclui a classe minimize que mostra o modal em tela minimizado
+       modal.classList.remove('maximize');
+      }
+  });
