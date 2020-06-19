@@ -68,6 +68,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - Ícones das redes tecnologias que gosto com links para as documentações.
 - Cores e estilizações próprias.
 - Responsividade com media query baseado no toogle device toolbar do chrome.
+- Funções maximizar e minimizar modal de videos
 
 ---
 
