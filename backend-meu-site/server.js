@@ -4,7 +4,7 @@ const server = express();
 
 
 server.get('/', (req, res) => {
-  return res.send('Rota index ok!');
+  return res.send('Rota index Done!');
 });
 
 server.listen(5000, () => {
