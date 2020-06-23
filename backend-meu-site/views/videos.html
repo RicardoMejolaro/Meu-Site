@@ -1,40 +1,15 @@
-<!DOCTYPE html>
+{% extends "layout.html" %}
 
-<html lang="pt-br">
+{% block head %}
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dicas de videos</title>
 
-    <title>Ricardo Mejolaro</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+{% endblock %}
+
+{% block content %}
     
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
-
-  </head>
-
-  <body>
-    <header>
-        <div class="links">
-          <a href="/">Sobre </a>
-          <span>|</span>
-          <a href="">Dicas de videos</a>
-        </div>
-        
-        <div class="links-icons-socials">
-          <a href="https://github.com/RicardoMejolaro" target="_blank">
-            <img src="assets/github.png" alt="Github">
-          </a>
-          <a href="https://www.linkedin.com/in/ricardo-mejolaro/" target="_blank">
-            <img src="assets/linkedin.svg" alt="linkedin">
-          </a>
-          <a href="https://api.whatsapp.com/send?phone=5511995821129" target="_blank">
-            <img src="assets/whatsapp.png" alt="WhatsApp">
-          </a>
-        </div> 
-    </header>
-
     <div id="wrapper">
       <h1>Videos: </h1>
     </div>
@@ -142,8 +117,6 @@
       </div>
     </div>
 
-    <script src="/scripts/scripts.js"></script>
+    <script src="/scripts.js"></script>
    
-  </body>
-
-</html>
+{% endblock %}
