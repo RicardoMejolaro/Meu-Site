@@ -37,6 +37,18 @@ server.get('/videos', (req, res) => {
   return res.render('videos', { items: videos });
 });
 
+server.get('/watch-video', (req, res) => {
+   const id = req.query.id;
+
+   const video = videos.find( video => video.id == id );
+
+   if(!video) {
+    return res.send("Video não encontrado!");
+   } 
+
+   return res.render('watch-video', { item: video })
+});
+
 server.listen(5000, () => {
   console.log("Server is Running!");
 });
