@@ -1,5 +1,5 @@
 <h1 align=center>
-<img src="public/assets/logo-launchbase.svg" alt="Bootcamp LaunchBase" width="250px">
+<img src="assets/logo-launchbase.svg" alt="Bootcamp LaunchBase" width="250px">
 </h1>
 
 <h4 align="center"> 
@@ -36,11 +36,11 @@ O LaunchBase é um treinamento no formato de bootcamp online que tem duração d
 ---
 
 <h1 align=center>
-<img src="public/assets/imagem-perfil.jpg" alt="Imagem perfil" width="150">
+<img src="assets/imagem-perfil.jpg" alt="Imagem perfil" width="150">
 </h1>
 
 <h1>
-<img src="public/assets/meu-site.gif" alt="Gif demonstrativo Site">
+<img src="assets/meu-site.gif" alt="Gif demonstrativo Site">
 </h1>
 
 ## 📝️ Sobre
@@ -112,5 +112,5 @@ Botão direito do mouse em cima do arquivo e clicar em Open With Live Server:
 ***Ricardo Mejolaro*** 
 <br/> 
 <a href="https://www.linkedin.com/in/ricardo-mejolaro/">
-<img src="public/assets/linkedin.png">
+<img src="assets/linkedin.png">
 </a>
