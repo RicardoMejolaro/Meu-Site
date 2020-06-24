@@ -1,37 +1,24 @@
 {% extends "layout.njk" %}
 
 {% block head %}
-<title>About - Ricardo Mejolaro</title>
+<title>About - {{about.name}}</title>
 {% endblock %}
 
 {% block content %}
 
   <div id="wrapper">
-    <img src="assets/imagem-perfil.jpg" alt="Ricardo Mejolaro">
-    <h1>Ricardo Mejolaro</h1>
-    <h2>Desenvolvedor WEB</h2>
-    <p>Formado em Sistemas de Informação, programador e estudante das principais tecnologias do universo WEB e Mobile:</p> 
+    <img src="{{about.avatar_url}}" alt="Imagem de {{about.name}}">
+    <h1>{{about.name}}</h1>
+    <h2>{{about.role}}</h2>
+    <p>{{about.description}}</p> 
   </div>
 
   <div class="links-icons-tecnologies">
-    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/" target="_blank">
-      <img src="assets/html-5.png" alt="HTML5">
+    {% for tecnologie in about.tecnologies %}
+    <a href="{{tecnologie.url}}" target="_blank">
+      <img src="{{tecnologie.icon}}" alt="{{tecnologie.name}}">
     </a>
-    <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/" target="_blank">
-      <img src="assets/css3.png" alt="CSS3">
-    </a>
-    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/" target="_blank">
-      <img src="assets/javascript.png" alt="JAVASCRIPT">
-    </a>
-    <a href="https://nodejs.org/en/docs/" target="_blank">
-      <img src="assets/node.png" alt="NODEJS">
-    </a>
-    <a href="https://pt-br.reactjs.org/" target="_blank">
-      <img src="assets/react.png" alt="REACT-JS">
-    </a>
-    <a href="https://reactnative.dev/" target="_blank">
-      <img src="assets/react-native.png" alt="REACT-NATIVE">
-    </a>
+    {% endfor %}
   </div>
 
 {% endblock %}
