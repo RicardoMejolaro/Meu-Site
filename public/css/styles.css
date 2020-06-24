@@ -138,6 +138,7 @@ a {
   background-color: var(--color-rocket);
   display: grid;
   align-items: center;
+  cursor: pointer;
 }
 
 .card-image-container img{
@@ -229,5 +230,21 @@ iframe {
   height: 90%;
   margin: 5vh auto;
   position: relative;
+}
+
+/*=======Featured========*/
+.featured-wrapper.card-image-container {
+  position: relative;
+}
+
+.featured {
+  background-color: #f7d05f;
+  color: #111;
+  font-weight: bold;
+  border-radius: 16px;
+  position: absolute;
+  right: 5px;
+  padding: 2px 8px;
+  top: -10px;
 }
 
