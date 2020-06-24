@@ -7,7 +7,7 @@ const server = express();
 
 server.use(express.static('public'));
 
-server.set('view engine', 'html');
+server.set('view engine', 'njk');
 
 nunjucks.configure('views', {
   express: server
@@ -18,7 +18,7 @@ server.get('/', (req, res) => {
 });
 
 server.get('/videos', (req, res) => {
-  return res.render('videos');
+  return res.render('videos', { items: videos });
 });
 
 server.listen(5000, () => {
