@@ -136,6 +136,8 @@ a {
 
 .card {
   background-color: var(--color-rocket);
+  display: grid;
+  align-items: center;
 }
 
 .card-image-container img{
