@@ -1,7 +1,8 @@
 <h1 align=center>
 <img src="my-site-with-backend-version/public/assets/logo-launchbase.svg" alt="Bootcamp LaunchBase" width="250px">
-<h2 align="center"><strong style="color: red">Readme Versão dinâmica com Backend</strong></h2>
 </h1>
+
+<h2 align="center"><strong style="color: red">Readme Versão dinâmica com Backend</strong></h2>
 
 <h4 align="center"> 
 🚀 Site pessoal criado durante o módulo 3 do Bootcamp 🚀 <br/> 🚀 Done! ✔️
