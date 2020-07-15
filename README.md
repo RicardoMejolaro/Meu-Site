@@ -75,8 +75,7 @@ $ cd meu-site
 $ code .
 
 #Com o terminal aberto rodar o comando
-$ npm install para instalar as dependências necessárias
-
+$ npm install (para instalar as dependências necessárias)
 #Agora só rodar o projeto com o comando
 $ npm start
 
