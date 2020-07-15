@@ -10,7 +10,7 @@
 - [Tecnologias utilizadas](#🚀️-Tecnologias-utilizadas)
 - [Acrescentado ao projeto original](#💻️-Acrescentado-ao-projeto-original)
 - [Como usar](#💾️-Como-baixar/testar-o-projeto)
-- [Bootcamp LaunchBase](#ℹ️--O-que-é-o-LaunchBase-Bootcamp)
+- [Bootcamp LaunchBase](#-ℹ️-O-que-é-o-LaunchBase-Bootcamp)
 - [Contato](#-Desenvolvido-com-💙️-por)
 - [Licença](#-Licença)
 
@@ -76,6 +76,7 @@ $ code .
 
 #Com o terminal aberto rodar o comando
 $ npm install (para instalar as dependências necessárias)
+
 #Agora só rodar o projeto com o comando
 $ npm start
 
