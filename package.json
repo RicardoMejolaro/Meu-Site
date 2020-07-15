@@ -1,5 +1,5 @@
 {
-  "name": "backend-meu-site",
+  "name": "meu-site",
   "version": "1.0.0",
   "description": "Site pessoal",
   "main": "server.js",
@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "Ricardo Mejolaro",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "nunjucks": "^3.2.1"
